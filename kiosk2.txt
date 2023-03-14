@@ -1,1 +1,16 @@
-
+connection=wired
+dhcp=yes
+proxy=
+browser=firefox
+homepage=https://google.pl
+hostname=KioskRemote
+allow_icmp_protocol=yes
+hide_mouse=5
+disable_navigation_bar=yes
+kiosk_config=https://raw.githubusercontent.com/szymongamza/Configs/main/kiosk2.txt
+refresh_webpage=3600
+root_password=test123
+shutdown_menu=lock reboot restart-session shutdown sleep
+timezone=Europe/Warsaw
+disable_zoom_controls=yes
+additional_components=uefi.zip 08-ssh.xzm
