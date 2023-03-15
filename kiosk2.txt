@@ -12,5 +12,6 @@ refresh_webpage=3600
 root_password=test123
 shutdown_menu=lock reboot restart-session shutdown sleep
 timezone=Europe/Warsaw
+wake_on_lan=yes
 disable_zoom_controls=yes
-additional_components=uefi.zip 08-ssh.xzm
+additional_components=uefi.zip 08-ssh.xzm initrdpxe.xz
